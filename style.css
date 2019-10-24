@@ -17,3 +17,122 @@ h3{display: inline-block;}
 div.menuhaut{text-align: right;}
 div.menubas{text-align: center;}
 div.textfin{text-align: center;}
+
+/*
+	HEADER
+*/
+
+.menuhaut{
+	background-color: black;
+	text-align: right;
+}
+
+.menuhaut a {
+	color: #FF7D05;
+}
+
+
+/* 
+	SECTION 1
+*/
+
+.S1 {
+	display: flex;
+	height: 600px;
+}
+
+.S1 > * {
+	flex: 1;
+	height: 100;
+	background: white;
+}
+
+.S1 .textH1 {
+	background-image: url("images/S1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+.S1 h1 {
+	position: relative;
+	left: 50%;
+	max-width: 700px;
+	width: 100%;
+}
+
+
+div.textS1 p {
+	margin-top: 350px;
+	margin-left: 200px
+}
+
+/*
+	SECTION 2
+*/
+
+.S2 {
+	display: flex;
+	height: 600px;
+}
+
+.S2 > * {
+	flex: 1;
+	height: 100;
+	background: white;
+}
+
+.S2 .textH2 {
+	background-image: url("images/S2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+.S2 h1 {
+	position: relative;
+	left: 50%;
+	max-width: 700px;
+	width: 100%;
+}
+
+
+div.textS2 p {
+	margin-top: 350px;
+	margin-left: 200px;
+}
+
+/*
+	SECTION 3
+*/
+
+.S3 {
+	display: flex;
+	height: 600px;
+}
+
+.S3 > * {
+	flex: 1;
+	height: 100;
+	background: white;
+}
+
+.S3 .textH3 {
+	background-image: url("images/S3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+.S3 h1 {
+	position: relative;
+	left: 50%;
+	max-width: 700px;
+	width: 100%;
+}
+
+
+div.textS3 p {
+	margin-top: 350px;
+	margin-left: 200px;
+}
