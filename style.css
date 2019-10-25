@@ -42,8 +42,9 @@ div.textfin{text-align: center;}
 }
 
 .htm{
-	height: 500px;
-	width: 500px;
+	float: left;
+	height: auto;
+	width: 50px;
 }
 
 .suzuki{
@@ -126,7 +127,7 @@ div.textS1 p {
 
 .S2 h1 {
 	position: relative;
-	left: 50%;
+	left: -30%;
 	max-width: 700px;
 	width: 100%;
 }
@@ -137,8 +138,9 @@ div.textS2 p {
 	margin-left: 200px;
 }
 
-}
-.découvrirS2 {
+
+.big-button {
+	display: block;
 	max-width: 300px;
 	height :100px;
 	margin-left: 300px;
@@ -189,6 +191,16 @@ div.textS3 p {
 	margin-left: 175px;
 }
 
+
+.maps {
+
+height: 180px;
+
+margin-left: -770px;
+padding-top: 20px
+
+}
+
 /*
 	Informations	
 */
@@ -205,6 +217,8 @@ div.textS3 p {
 	display: flex;
 	flex-direction: column;
 }
+
+
 
 .flexdroite{
 	display: flex;
