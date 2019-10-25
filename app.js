@@ -1,3 +1,5 @@
+
+
 var bigtitle = document.queryselector('#bigtitle');
 var secondtitles= document.queryselectorall('h2');
 
@@ -19,7 +21,5 @@ bigtitle.addEventlistener('click', onClickBigTitle);
 function onClickBigTitle() {
 	bigtitle.style.color = "blue";
 }
-
-
 
 

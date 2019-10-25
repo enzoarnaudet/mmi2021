@@ -32,13 +32,18 @@ div.textfin{text-align: center;}
 	background-color: black;
 	text-align: right;
 	height: 10vh;
-	width: 100vw;
+	/*width: 100vw;*/
 }
 
 .menuhaut a {
 	color: #FF7D05;
 	margin-top: 20px;
 	text-decoration: none;
+}
+
+.menuhaut ul {
+	padding-top: 25px;
+	padding-right: 25px;
 }
 
 .htm{
@@ -49,7 +54,7 @@ div.textfin{text-align: center;}
 
 .suzuki{
 	background: url(images/suzuki.jpg);
-	width: 100vw;
+	/*width: 100vw;*/
 	height: 90vh;
 }
 
@@ -113,6 +118,7 @@ div.textS1 p {
 	height: 600px;
 	margin-top: 50px;
 
+
 }
 
 .S2 > * {
@@ -135,6 +141,8 @@ div.textS1 p {
 	left: -30%;
 	max-width: 700px;
 	width: 100%;
+	margin-top: 50px;
+
 }
 
 
@@ -184,6 +192,8 @@ div.textS2 p {
 	left: 50%;
 	max-width: 700px;
 	width: 100%;
+	margin-top: 50px;
+
 }
 
 
@@ -245,7 +255,7 @@ display: block;
 	background-color: black;
 	text-align: right;
 	height: 10vh;
-	width: 100vw;
+	/*width: 100vw;*/
 }
 
 .menubas a {
@@ -253,7 +263,9 @@ display: block;
 	text-decoration: none;
 }
 
-
+.menubas ul {
+	padding-top: 25px;
+}
 
 
 .container{
@@ -262,6 +274,7 @@ flex-direction: row;
 flex-direction: row-reverse;
 }
 
+/* BOUTON BLANC */
 
 .button:hover {
 	color:black;
