@@ -336,3 +336,15 @@ flex-direction: row-reverse;
   width: 100%;
   left: 0;
 }
+
+
+.S1 div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.S1  div:hover img {
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+}
