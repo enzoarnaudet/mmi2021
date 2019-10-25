@@ -42,7 +42,7 @@ div.textfin{text-align: center;}
 }
 
 .menuhaut ul {
-	padding-top: 15px;
+	padding-top: 25px;
 	padding-right: 25px;
 }
 
@@ -59,20 +59,10 @@ div.textfin{text-align: center;}
 }
 
 .logo{
-	height: auto;
+	height: 500px;
 	width: 500px;
 	margin-left: 200px;
 	margin-top: 50px;
-}
-
-.fleche{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -20px;
-	height: auto;
-	width: 175px;
-	
 }
 
 
@@ -83,7 +73,7 @@ div.textfin{text-align: center;}
 .S1 {
 	display: flex;
 	height: 600px;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .S1 > * {
@@ -97,7 +87,6 @@ div.textfin{text-align: center;}
 	background-size: cover;
 	background-position: center;
 text-shadow : 0px 0.3em 0.1em rgba(0,0,0,0.2);
-
 }
 
 
@@ -130,7 +119,7 @@ div.textS1 p {
 .S2 {
 	display: flex;
 	height: 600px;
-	margin-top: 100px;
+	margin-top: 50px;
 
 
 }
@@ -184,7 +173,7 @@ div.textS2 p {
 .S3 {
 	display: flex;
 	height: 600px;
-	margin-top: 100px;
+	margin-top: 50px;
 
 }
 
@@ -209,7 +198,6 @@ div.textS2 p {
 	max-width: 700px;
 	width: 100%;
 	margin-top: 50px;
-	margin-left: 120px;
 
 }
 
@@ -296,60 +284,4 @@ flex-direction: row-reverse;
 .button:hover {
 	color:black;
 	background:white;
-}
-
-
-/* GENERAL effet sous ligné menu */
-.menuhaut a {
-  display: table;
-  padding: 5px 0;
-  text-decoration: none;
-  color: #FF7D05;
-  margin: 10px auto;
-  position: relative;
-}
-
-
-.menuhaut a:after {
-  content: '';
-  display: block;
-  height: 2px;
-  width: 0%;
-  bottom: 0;
-  position: absolute;
-  right: 0;
-  background: #FF7D05;
-  transition: width .2s
-}
-
-.menuhaut li:hover a:after {
-  width: 100%;
-  left: 0;
-}
-/* GENERAL effet sous ligné menu */
-.menubas a {
-  display: table;
-  padding: 5px 0;
-  text-decoration: none;
-  color: #FF7D05;
-  margin: 10px auto;
-  position: relative;
-}
-
-
-.menubas a:after {
-  content: '';
-  display: block;
-  height: 2px;
-  width: 0%;
-  bottom: 0;
-  position: absolute;
-  right: 0;
-  background: #FF7D05;
-  transition: width .2s
-}
-
-.menubas li:hover a:after {
-  width: 100%;
-  left: 0;
 }
