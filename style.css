@@ -201,13 +201,13 @@ div.textS3 p {
 
 
 .maps {
-
+display: block;
 height: 180px;
 
-margin-left: -770px;
 padding-top: 20px
 
 }
+
 
 /*
 	Informations	
@@ -226,7 +226,11 @@ padding-top: 20px
 	flex-direction: column;
 }
 
+.flexgauche h3{
+text-align: center;
+display: block;
 
+}
 
 .flexdroite{
 	display: flex;
