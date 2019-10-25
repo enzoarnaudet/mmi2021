@@ -361,7 +361,7 @@ flex-direction: row-reverse;
 
 
 /* Effet sur les boutons découvrir*/
-.decouvirS1, .decouvirS2, .decouvrirS3 {
+.decouvrirS1, .decouvrirS2, .decouvrirS3 {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
