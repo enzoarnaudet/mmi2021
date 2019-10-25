@@ -2,7 +2,8 @@ li {font-size: 15px;
 	font-family: "Nachlieli CLM"; 
 	display: inline-block;
 	color: #FF7D05;
-	text-decoration: none;}
+	text-decoration: none;
+   }
 
 
 
@@ -180,4 +181,19 @@ div.textS3 p {
 
 .menubas a {
 	color: #FF7D05;
+}
+
+
+
+
+.container{
+
+flex-direction: row;
+flex-direction: row-reverse;
+}
+
+
+.button:hover {
+	color:black;
+	background:white;
 }
