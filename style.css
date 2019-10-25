@@ -7,7 +7,10 @@ li {font-size: 15px;
 	text-decoration: none;
    }
 
+li:hover a{
 
+	color: white;
+}
 
 h1 {font-size: 80px;
 	color: #FF7D05;
@@ -29,13 +32,18 @@ div.textfin{text-align: center;}
 	background-color: black;
 	text-align: right;
 	height: 10vh;
-	width: 100vw;
+	/*width: 100vw;*/
 }
 
 .menuhaut a {
 	color: #FF7D05;
 	margin-top: 20px;
 	text-decoration: none;
+}
+
+.menuhaut ul {
+	padding-top: 25px;
+	padding-right: 25px;
 }
 
 .htm{
@@ -46,7 +54,7 @@ div.textfin{text-align: center;}
 
 .suzuki{
 	background: url(images/suzuki.jpg);
-	width: 100vw;
+	/*width: 100vw;*/
 	height: 90vh;
 }
 
@@ -201,6 +209,16 @@ div.textS3 p {
 	margin-left: 175px;
 }
 
+
+.maps {
+
+height: 180px;
+
+margin-left: -770px;
+padding-top: 20px
+
+}
+
 /*
 	Informations	
 */
@@ -218,6 +236,8 @@ div.textS3 p {
 	flex-direction: column;
 }
 
+
+
 .flexdroite{
 	display: flex;
 	flex-direction: column;
@@ -231,7 +251,7 @@ div.textS3 p {
 	background-color: black;
 	text-align: right;
 	height: 10vh;
-	width: 100vw;
+	/*width: 100vw;*/
 }
 
 .menubas a {
@@ -239,7 +259,9 @@ div.textS3 p {
 	text-decoration: none;
 }
 
-
+.menubas ul {
+	padding-top: 25px;
+}
 
 
 .container{
@@ -248,6 +270,7 @@ flex-direction: row;
 flex-direction: row-reverse;
 }
 
+/* BOUTON BLANC */
 
 .button:hover {
 	color:black;
