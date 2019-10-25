@@ -239,6 +239,7 @@ padding-top: 20px
 }
 
 
+
 /*
 	Informations	
 */
@@ -278,6 +279,9 @@ display: block;
 	/*width: 100vw;*/
 }
 
+
+
+
 .menubas a {
 	color: #FF7D05;
 	text-decoration: none;
@@ -305,6 +309,8 @@ flex-direction: row-reverse;
 	color:black;
 	background:white;
 }
+
+
 
 
 /* GENERAL effet sous ligné menu */
@@ -361,6 +367,7 @@ flex-direction: row-reverse;
   width: 100%;
   left: 0;
 }
+
 
 
 /* Effet sur les boutons découvrir*/
