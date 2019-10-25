@@ -288,3 +288,59 @@ flex-direction: row-reverse;
 	color:black;
 	background:white;
 }
+
+
+/* GENERAL effet sous ligné menu */
+.menuhaut a {
+  display: table;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #FF7D05;
+  margin: 10px auto;
+  position: relative;
+}
+
+
+.menuhaut a:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0%;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  background: #FF7D05;
+  transition: width .2s
+}
+
+.menuhaut li:hover a:after {
+  width: 100%;
+  left: 0;
+}
+/* GENERAL effet sous ligné menu */
+.menubas a {
+  display: table;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #FF7D05;
+  margin: 10px auto;
+  position: relative;
+}
+
+
+.menubas a:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0%;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  background: #FF7D05;
+  transition: width .2s
+}
+
+.menubas li:hover a:after {
+  width: 100%;
+  left: 0;
+}
