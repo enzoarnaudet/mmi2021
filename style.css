@@ -59,10 +59,17 @@ div.textfin{text-align: center;}
 }
 
 .logo{
-	height: 500px;
+	height: auto;
 	width: 500px;
 	margin-left: 200px;
 	margin-top: 50px;
+}
+
+.fleche{
+	height: auto;
+	width: 175px;
+	
+
 }
 
 
@@ -73,7 +80,7 @@ div.textfin{text-align: center;}
 .S1 {
 	display: flex;
 	height: 600px;
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .S1 > * {
@@ -116,7 +123,7 @@ div.textS1 p {
 .S2 {
 	display: flex;
 	height: 600px;
-	margin-top: 50px;
+	margin-top: 100px;
 
 
 }
@@ -170,7 +177,7 @@ div.textS2 p {
 .S3 {
 	display: flex;
 	height: 600px;
-	margin-top: 50px;
+	margin-top: 100px;
 
 }
 
@@ -193,6 +200,7 @@ div.textS2 p {
 	max-width: 700px;
 	width: 100%;
 	margin-top: 50px;
+	margin-left: 120px;
 
 }
 
