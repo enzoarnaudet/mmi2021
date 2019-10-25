@@ -46,6 +46,10 @@ div.textfin{text-align: center;}
 	padding-right: 25px;
 }
 
+.menuhaut li{
+	margin-right: 10px;
+}
+
 .htm{
 	float: left;
 	height: auto;
@@ -85,7 +89,7 @@ div.textfin{text-align: center;}
 .S1 .textH1 {
 	background-image: url("images/S1.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: center right ;
 }
 
 
@@ -131,7 +135,7 @@ div.textS1 p {
 
 	background-image: url("images/S2.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: center left;
 
 }
 
@@ -183,7 +187,8 @@ div.textS2 p {
 .S3 .textH3 {
 	background-image: url("images/S3.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: center right;
+	text-shadow: -0.2em 0.1em 0.1em rgba(0,0,0,0.2);
 }
 
 
@@ -272,6 +277,11 @@ display: block;
 
 flex-direction: row;
 flex-direction: row-reverse;
+}
+
+.menubas li{
+	display: inline-block;
+	vertical-align: middle;
 }
 
 /* BOUTON BLANC */
