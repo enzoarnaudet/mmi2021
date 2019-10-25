@@ -364,13 +364,18 @@ flex-direction: row-reverse;
 /* Menu défilant les bg */
 
 
-.Menudefilant1 {
+.Menudefilant {
   position: -webkit-sticky; 
   position: fixed;
  
 display: block;
+	
+	right: 50px;
+	bottom: 50px;
+
+}
+.Menudefilant img{
 	max-width: 100px;
 	height :100px;
-	margin-left: 1390px;
-	bottom: 50px;
+
 }
