@@ -1,6 +1,4 @@
-body, html{
-	/*overflow: hidden;*/
-}
+body, html{}
 
 li {font-size: 15px;
 	font-family: "Nachlieli CLM"; 
@@ -39,12 +37,14 @@ div.textfin{text-align: center;}
 
 .menuhaut a {
 	color: #FF7D05;
+	margin-top: 20px;
+	text-decoration: none;
 }
 
 .htm{
 	float: left;
 	height: auto;
-	width: 50px;
+	width: 80px;
 }
 
 .suzuki{
@@ -68,6 +68,7 @@ div.textfin{text-align: center;}
 .S1 {
 	display: flex;
 	height: 600px;
+	margin-top: 50px;
 }
 
 .S1 > * {
@@ -85,9 +86,10 @@ div.textfin{text-align: center;}
 
 .S1 h1 {
 	position: relative;
-	left: 50%;
+	left: 59.5%;
 	max-width: 700px;
 	width: 100%;
+	margin-top: 50px;
 }
 
 
@@ -96,6 +98,7 @@ div.textS1 p {
 	margin-left: 200px
 }
 .découvrirS1 {
+	display: block;
 	max-width: 300px;
 	height :100px;
 	margin-left: 175px;
@@ -108,6 +111,8 @@ div.textS1 p {
 .S2 {
 	display: flex;
 	height: 600px;
+	margin-top: 50px;
+
 }
 
 .S2 > * {
@@ -139,11 +144,11 @@ div.textS2 p {
 }
 
 
-.big-button {
+.big-buttonS2 {
 	display: block;
 	max-width: 300px;
 	height :100px;
-	margin-left: 300px;
+	margin-left: 175px;
 }
 
 
@@ -157,6 +162,8 @@ div.textS2 p {
 .S3 {
 	display: flex;
 	height: 600px;
+	margin-top: 50px;
+
 }
 
 .S3 > * {
@@ -186,6 +193,7 @@ div.textS3 p {
 }
 
 .découvrirS3 {
+	display: block;
 	max-width: 300px;
 	height :100px;
 	margin-left: 175px;
@@ -238,6 +246,7 @@ padding-top: 20px
 
 .menubas a {
 	color: #FF7D05;
+	text-decoration: none;
 }
 
 
