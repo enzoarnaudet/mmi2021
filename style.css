@@ -42,7 +42,7 @@ div.textfin{text-align: center;}
 }
 
 .menuhaut ul {
-	padding-top: 15px;
+	padding-top: 25px;
 	padding-right: 25px;
 }
 
@@ -59,20 +59,10 @@ div.textfin{text-align: center;}
 }
 
 .logo{
-	height: auto;
+	height: 500px;
 	width: 500px;
 	margin-left: 200px;
 	margin-top: 50px;
-}
-
-.fleche{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -20px;
-	height: auto;
-	width: 175px;
-	
 }
 
 
@@ -83,7 +73,7 @@ div.textfin{text-align: center;}
 .S1 {
 	display: flex;
 	height: 600px;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .S1 > * {
@@ -96,8 +86,6 @@ div.textfin{text-align: center;}
 	background-image: url("images/S1.jpg");
 	background-size: cover;
 	background-position: center;
-text-shadow : 0px 0.3em 0.1em rgba(0,0,0,0.2);
-
 }
 
 
@@ -107,8 +95,6 @@ text-shadow : 0px 0.3em 0.1em rgba(0,0,0,0.2);
 	max-width: 700px;
 	width: 100%;
 	margin-top: 50px;
-
-
 }
 
 
@@ -130,7 +116,7 @@ div.textS1 p {
 .S2 {
 	display: flex;
 	height: 600px;
-	margin-top: 100px;
+	margin-top: 50px;
 
 
 }
@@ -146,7 +132,7 @@ div.textS1 p {
 	background-image: url("images/S2.jpg");
 	background-size: cover;
 	background-position: center;
-text-shadow : 0px 0.3em 0.1em rgba(0,0,0,0.2);
+
 }
 
 
@@ -184,7 +170,7 @@ div.textS2 p {
 .S3 {
 	display: flex;
 	height: 600px;
-	margin-top: 100px;
+	margin-top: 50px;
 
 }
 
@@ -198,8 +184,6 @@ div.textS2 p {
 	background-image: url("images/S3.jpg");
 	background-size: cover;
 	background-position: center;
-	text-shadow : 0px 0.3em 0.1em rgba(0,0,0,0.2);
-
 }
 
 
@@ -209,7 +193,6 @@ div.textS2 p {
 	max-width: 700px;
 	width: 100%;
 	margin-top: 50px;
-	margin-left: 120px;
 
 }
 
@@ -355,13 +338,28 @@ flex-direction: row-reverse;
 }
 
 
-.S1 div img {
+
+.découvirS1, .découvirS2, .découvrirS3 {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-.S1  div:hover img {
+.découvrirS3:hover, .découvrirS2:hover, .découvrirS1:hover {
 	-webkit-transform: scale(0.5);
 	transform: scale(0.5);
+}
+
+/* Menu défilant les bg */
+
+
+.Menudefilant1 {
+  position: -webkit-sticky; 
+  position: fixed;
+ 
+display: block;
+	max-width: 100px;
+	height :100px;
+	margin-left: 1390px;
+	bottom: 50px;
 }
