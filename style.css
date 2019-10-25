@@ -42,7 +42,7 @@ div.textfin{text-align: center;}
 }
 
 .menuhaut ul {
-	padding-top: 25px;
+	padding-top: 15px;
 	padding-right: 25px;
 }
 
@@ -66,10 +66,13 @@ div.textfin{text-align: center;}
 }
 
 .fleche{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -20px;
 	height: auto;
 	width: 175px;
 	
-
 }
 
 
