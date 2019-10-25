@@ -46,6 +46,10 @@ div.textfin{text-align: center;}
 	padding-right: 25px;
 }
 
+.menuhaut li{
+	margin-right: 10px;
+}
+
 .htm{
 	float: left;
 	height: auto;
@@ -95,7 +99,8 @@ div.textfin{text-align: center;}
 .S1 .textH1 {
 	background-image: url("images/S1.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: center right ;
+	text-shadow: -0.2em 0.1em 0.1em rgba(0,0,0,0.2);
 }
 
 
@@ -141,8 +146,8 @@ div.textS1 p {
 
 	background-image: url("images/S2.jpg");
 	background-size: cover;
-	background-position: center;
-
+	background-position: center left;
+text-shadow: -0.2em 0.1em 0.1em rgba(0,0,0,0.2);
 }
 
 
@@ -173,6 +178,7 @@ div.textS2 p {
 
 
 
+
 /*
 	SECTION 3
 */
@@ -193,7 +199,8 @@ div.textS2 p {
 .S3 .textH3 {
 	background-image: url("images/S3.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: center right;
+	text-shadow: -0.2em 0.1em 0.1em rgba(0,0,0,0.2);
 }
 
 
@@ -229,6 +236,12 @@ padding-top: 20px
 
 }
 
+.divsponsor{
+	width: 100%;
+	background-image:url(images/sponsos.png);
+	height: 400px;
+
+}
 
 /*
 	Informations	
@@ -277,7 +290,7 @@ display: block;
 	text-decoration: none;
 }
 
-.menubas ul {
+.menubas {
 	padding-top: 25px;
 }
 
@@ -288,47 +301,19 @@ flex-direction: row;
 flex-direction: row-reverse;
 }
 
+.menubas li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
 /* BOUTON BLANC */
 
 .button:hover {
 	color:black;
 	background:white;
-<<<<<<< HEAD
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-}
 
 
 /* GENERAL effet sous ligné menu */
@@ -385,4 +370,9 @@ flex-direction: row-reverse;
   width: 100%;
   left: 0;
 }
->>>>>>> aba6501861bef98dda9bf5f228f27d2e5641a541
+
+.sponso{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;}
