@@ -235,6 +235,12 @@ padding-top: 20px
 
 }
 
+.divsponsor{
+	width: 100%;
+	background-image:url(images/sponsos.png);
+	height: 400px;
+
+}
 
 /*
 	Informations	
@@ -275,6 +281,9 @@ display: block;
 	/*width: 100vw;*/
 }
 
+
+
+
 .menubas a {
 	color: #FF7D05;
 	text-decoration: none;
@@ -302,6 +311,8 @@ flex-direction: row-reverse;
 	color:black;
 	background:white;
 }
+
+
 
 
 /* GENERAL effet sous ligné menu */
@@ -360,6 +371,7 @@ flex-direction: row-reverse;
 }
 
 
+
 /* Effet sur les boutons découvrir*/
 .decouvrirS1, .decouvrirS2, .decouvrirS3 {
 	-webkit-transform: scale(1);
@@ -390,3 +402,4 @@ display: block;
 	height :100px;
 
 }
+
