@@ -90,6 +90,7 @@ div.textfin{text-align: center;}
 	background-image: url("images/S1.jpg");
 	background-size: cover;
 	background-position: center right ;
+	text-shadow: -0.2em 0.1em 0.1em rgba(0,0,0,0.2);
 }
 
 
@@ -136,7 +137,7 @@ div.textS1 p {
 	background-image: url("images/S2.jpg");
 	background-size: cover;
 	background-position: center left;
-
+text-shadow: -0.2em 0.1em 0.1em rgba(0,0,0,0.2);
 }
 
 
