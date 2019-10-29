@@ -1,7 +1,4 @@
-body, html{
-	cursor: url("images/pointeur.png"), pointer;
-
-}
+body, html{}
 
 li {font-size: 15px;
 	font-family: "Nachlieli CLM"; 
@@ -173,7 +170,7 @@ div.textS2 p {
 	display: block;
 	max-width: 300px;
 	height :100px;
-	margin-left: 275px;
+	margin-left: 175px;
 }
 
 
@@ -196,7 +193,6 @@ div.textS2 p {
 	flex: 1;
 	height: 100;
 	background: white;
-
 }
 
 .S3 .textH3 {
@@ -240,19 +236,18 @@ padding-top: 20px
 }
 
 .divsponsor{
-	
+	width: 100%;
 	background-image:url(images/sponsos.png);
 	height: 400px;
-	display: block;
-	margin-top: 100px;
 
-
+}
 
 /*
 	Informations	
 */
 
-.flexmere{display: flex;
+.flexmere{
+	display: flex;
 	justify-content: space-around;
 	flex-wrap: nowrap;
 	flex-direction: row;
@@ -309,6 +304,8 @@ flex-direction: row-reverse;
 	display: inline-block;
 	vertical-align: middle;
 }
+
+
 
 /* BOUTON BLANC */
 
@@ -407,3 +404,4 @@ display: block;
 	height :100px;
 
 }
+
